@@ -1,0 +1,55 @@
+/* ✿ General Page Styling ✿ */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #A9CCE3; /* Soft blue ♡ */
+    color: #333; /* Dark text */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* ✿ Navigation Bar Styling ✿ */
+nav {
+    background-color: #5499C7; /* A slightly darker blue */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ✿ Sections Styling ✿ */
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ✿ Button Styling ✿ */
+.button {
+    display: inline-block;
+    background-color: #5499C7;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #2980B9; /* Darker blue */
+}
