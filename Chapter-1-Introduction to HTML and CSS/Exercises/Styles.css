@@ -1,0 +1,65 @@
+/* ✿ LightCoral theme for a cute and girly look ✿ */
+body {
+    background-color: #F08080; /* LightCoral */
+    color: white; /* Text color set to white */
+    font-family: 'Arial', sans-serif; /* Sets a simple and readable font */
+    text-align: center; /* Centers text on the page */
+    margin: 0; /* Removes default browser margin */
+    padding: 0; /* Removes default browser padding */
+}
+
+/* ✿ Header Styling ✿ */
+header {
+    background-color: white; /* Makes the header background white */
+    color: #F08080; /* LightCoral text */
+    padding: 20px; /* Adds spacing inside the header */
+    border-radius: 15px; /* Makes rounded corners for a soft look */
+    margin: 20px; /* Adds spacing around the header */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Creates a soft shadow effect */
+}
+
+/* ✿ Recipe & Guide Sections ✿ */
+section {
+    background-color: white; /* White background */
+    color: #F08080; /* LightCoral text */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ✿ List Styling ✿ */
+ul, ol {
+    text-align: left; /* Aligns lists to the left */
+    display: inline-block; /* Keeps lists in place */
+    margin-left: 20px; /* Adds spacing on the left */
+}
+
+/* ✿ Code Box Styling ✿ */
+.code-box {
+    background-color: #FFE4E1; /* Light pink background */
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: left;
+}
+
+/* ✿ Code Formatting ✿ */
+code, pre {
+    background-color: white; /* White background */
+    color: #F08080; /* LightCoral text */
+    padding: 5px;
+    display: block;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace; /* Code font */
+}
+
+/* ✿ Footer Styling ✿ */
+footer {
+    background-color: white;
+    color: #F08080;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px;
+    font-weight: bold;
+}
