@@ -1,0 +1,51 @@
+/* General Page Styles */
+body {
+    background-color: #ffeef8;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #6b2c70;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  /* Header Styles */
+  h1 {
+    color: #ff69b4;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  /* Image Styling */
+  .image-container {
+    margin: 30px auto;
+    max-width: 800px;
+  }
+  
+  img {
+    border: 4px dotted #f8a5c2;
+    border-radius: 15px;
+    margin: 20px 0;
+    transition: all 0.3s ease;
+    filter: brightness(1.1) contrast(0.9) saturate(1.2);
+    box-shadow: 0 4px 12px rgba(255, 105, 180, 0.3);
+  }
+  
+  /* Hover Effect */
+  img:hover {
+    transform: scale(1.05) rotate(-2deg);
+    filter: brightness(1.2) contrast(1) saturate(1.4);
+  }
+  
+  /* Caption / License Info */
+  .caption {
+    font-size: 0.9em;
+    margin-bottom: 40px;
+    color: #a8449c;
+    background-color: #ffd6ec;
+    padding: 10px;
+    border-radius: 12px;
+    display: inline-block;
+    max-width: 80%;
+    line-height: 1.4;
+    box-shadow: 0 3px 8px rgba(248, 165, 194, 0.3);
+  }
