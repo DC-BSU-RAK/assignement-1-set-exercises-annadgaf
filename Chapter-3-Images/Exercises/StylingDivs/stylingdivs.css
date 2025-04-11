@@ -1,4 +1,4 @@
-/* The four Divs and each styles */
+/* The four divs and each styling */
 #A {
     padding: 15px;
     margin: 10px;
@@ -12,7 +12,7 @@
     margin: 10px;
     background-color: #ffffff; 
     border: 5px solid #00ff00; 
-    /* Added a box shadow to show the inner box */
+    /* added a shadow effect to show the inner shape of the box */
     box-shadow: inset 6px 10px 5px 1px;
    
 }
@@ -21,7 +21,7 @@
     background-color: #ffffff; 
     border: 5px solid #ff6600; 
     box-shadow:
-    /* 3 colors of layers  */
+    /* 3 layers of colors  */
         0 0 0 6px #003cff, 
         0 0 0 12px #fd0101, 
         0 0 0 18px #026117; 
@@ -33,7 +33,7 @@
 #D {
     background-color: #ffffff; 
     border: 5px solid #820505; 
-    /* Shadow of text added to create the shadow effect */
+    /* Shadow of text is added to create a shadow effect on the shape */
     text-shadow:
     4px 4px 0 #000000; 
     padding: 15px;
