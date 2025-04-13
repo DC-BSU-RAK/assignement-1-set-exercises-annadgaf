@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #000000;
+    background-color: #fff0f5;
+}
+
+header {
+    background-color: #ff69b4; /* hot pink */
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+    font-family: Tahoma, sans-serif;
+    border-bottom: 4px dashed #ffc0cb;
+}
+
+header h1 {
+    font-weight: 700;
+    margin: 0;
+    font-size: 2rem;
+    text-shadow: 1px 1px #ffb6c1;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    background-color: #ffb6c1;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ffe4e1;
+    color: #ff69b4;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.welcome {
+    flex: 2;
+    margin-right: 2rem;
+    background-color: #fffafc;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #ffccdd;
+}
+
+.welcome h2 {
+    border-bottom: 3px solid #ff69b4;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #d63384;
+}
+
+.welcome img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+    border: 2px dashed #ffb6c1;
+}
+
+.line-up {
+    flex: 1;
+    background-color: #ffc0cb;
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #ffaec9;
+}
+
+.line-up h2 {
+    border-bottom: 3px dashed #ffffff;
+    font-size: 1.5rem;
+}
+
+.line-up ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1rem;
+}
+
+.line-up li {
+    margin: 0.5rem 0;
+    color: #ffffff;
+}
+
+.line-up-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.line-up-images img {
+    width: 48%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+}
+
+footer {
+    background-color: #ffb6c1;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border-top: 4px dashed #ffc0cb;
+}
