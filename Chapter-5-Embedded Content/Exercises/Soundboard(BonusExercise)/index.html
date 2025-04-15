@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan Partridge Soundboard</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+<body>
+  <header>
+    <h1>SoundBoard</h1>
+  </header>
+  
+  <main class="soundboard">
+    <!-- Different buttons contains its own sound element -->  
+        <button class="sound-button" onclick="this.querySelector('audio').play()">
+           <span class="button-text">Ah-ha!</span>
+            <audio src="Audio/ah-ha.mp3"></audio>
+        </button>
+
+        <button class="sound-button" onclick="this.querySelector('audio').play()">
+            <span class="button-text">Back of the net!</span>
+            <audio src="Audio/back-of-the-net.mp3"></audio>
+        </button>
+
+        <button class="sound-button" onclick="this.querySelector('audio').play()">
+            <span class="button-text">Bang out of order!</span>
+            <audio src="Audio/bangoutoforder.mp3"></audio>
+        </button>
+
+        <button class="sound-button" onclick="this.querySelector('audio').play()">
+            <span class="button-text">Dan! Dan! Dan!</span>
+            <audio src="Audio/dan.mp3"></audio>
+        </button>
+
+        <button class="sound-button" onclick="this.querySelector('audio').play()">
+            <span class="button-text">Email of the evening</span>
+            <audio src="Audio/emailoftheevening.mp3"></audio>
+        </button>
+
+        <button class="sound-button" onclick="this.querySelector('audio').play()">
+            <span class="button-text">Hello Partridge</span>
+            <audio src="Audio/hellopartridge.mp3"></audio>
+        </button>
+
+        <button class="sound-button" onclick="this.querySelector('audio').play()">
+            <span class="button-text">I ate a Scotch egg</span>
+            <audio src="Audio/iateascotchegg.mp3"></audio>
+        </button>
+
+        <button class="sound-button" onclick="this.querySelector('audio').play()">
+            <span class="button-text">I'm confused</span>
+            <audio src="Audio/imconfused.mp3"></audio>
+        </button>
+    </main>
+
+</body>
+</html>
