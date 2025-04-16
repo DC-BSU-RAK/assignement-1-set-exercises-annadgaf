@@ -1,0 +1,99 @@
+/* Base body styling */
+
+body {
+    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a777def1-beed-4b10-87da-a8f563106e26/dhtnksl-f0001f14-d2ae-40c4-9f03-303602b26d55.jpg/v1/fill/w_1131,h_707,q_75,strp/cute_kuromi_desktop_wallpaper_by_kuromi_slays_by_kuromi_slays_dhtnksl-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzA3IiwicGF0aCI6IlwvZlwvYTc3N2RlZjEtYmVlZC00YjEwLTg3ZGEtYThmNTYzMTA2ZTI2XC9kaHRua3NsLWYwMDAxZjE0LWQyYWUtNDBjNC05ZjAzLTMwMzYwMmIyNmQ1NS5qcGciLCJ3aWR0aCI6Ijw9MTEzMSJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.CrAgScI92CSGrMnjvEW-z1qATP1hfYDyKGhn173PO1k') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    color: #fff;
+  }
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffe4f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Game container styling */
+  .game-container {
+    background-color: #fff0f5;
+    border: 2px solid #ffb6c1;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(255, 182, 193, 0.3);
+    max-width: 400px;
+    width: 90%;
+  }
+  
+  /* Heading */
+  h1 {
+    color: #ff69b4;
+    margin-bottom: 20px;
+  }
+  
+  /* RGB value display */
+  #rgb-value {
+    font-size: 24px;
+    color: #c71585;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Choices grid */
+  .choices-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  /* Color option buttons */
+  .color-option {
+    width: 80px;
+    height: 80px;
+    border: 3px solid #ffc0cb;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .color-option:hover {
+    transform: scale(1.1);
+    border-color: #ff69b4;
+  }
+  
+  /* Info display */
+  .info {
+    color: #d63384;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Feedback message */
+  #message {
+    color: #c71585;
+    font-size: 16px;
+    height: 20px;
+  }
+  
+  /* Replay button */
+  #replay-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    display: none;
+    cursor: pointer;
+  }
+  
+  #replay-btn:hover {
+    background-color: #ff85c1;
+  }
